@@ -4,31 +4,34 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1HardGaming1/Chat1.git"
+    "url": "git+https://github.com/1HardGaming1/chat.git"
   },
   "keywords": [
-    "Nodejs",
+    "NodeJS",
     "Chat"
   ],
-  "author": "Tarasiuk Artem",
+  "author": "Fesiuk Oleksandr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/1HardGaming1/Chat1/issues"
+    "url": "https://github.com/1HardGaming1/chat/issues"
   },
-  "homepage": "https://github.com/1HardGaming1/Chat1#readme",
+  "homepage": "https://github.com/1HardGaming1/chat#readme",
   "dependencies": {
+    "cookie": "^0.5.0",
+    "crypto": "^1.0.1",
     "socket.io": "^4.6.1",
+    "sqlite": "^4.2.0",
     "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
-  },
-  "scripts": {
-    "start": "nodeserver.js",
-    "dev": "nodemon server"
   }
 }
