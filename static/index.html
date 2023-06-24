@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RoboChat</title>
     <link rel="stylesheet" href="style.css">
-    <canvas id="canvas" width="400" height="400" style="background-color:#333"></canvas>
+    
 
     <script>
     var canvas = document.getElementById("canvas");
@@ -17,15 +17,16 @@
     drawClock();
 
     function drawClock() {
-    ctx.arc(0, 0, radius, 0 , 2 * Math.PI);
-    ctx.fillStyle = "white";
-    ctx.fill();
-}
+        ctx.arc(0, 0, radius, 0 , 2 * Math.PI);
+        ctx.fillStyle = "white";
+        ctx.fill();
+    }
 </script>
 </head>
 <body>
     <main>
         <header class="header">
+            <canvas id="canvas" width="400" height="400" style="background-color:#333"></canvas>
             <h1>RoboChat</h1>
             <button class="link" id="logout">Logout</button>
         </header>

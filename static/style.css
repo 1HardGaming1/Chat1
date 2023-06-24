@@ -23,7 +23,7 @@ main {
 .header {
     position: fixed;
     padding: 1rem;
-    text-align: center;
+    text-align: ;
     width: 100%;
     font-size: 2rem;
     background-color: var(--color-primary);
@@ -33,7 +33,9 @@ main {
     justify-content: space-around;
     align-items: center;
 }
-
+#canvas {
+    width: 50px;
+}
 #form {
     position: fixed;
     bottom: 0;
