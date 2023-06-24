@@ -1,8 +1,8 @@
 :root {
     /* Нагадайте учням про змінні */
-    --color-primary: #FF0000;
-    --color-primary-darker: #DA0000;
-    --color-accent: #FF3FED;
+    --color-primary: #41FF5B;
+    --color-primary-darker: #34E44B;
+    --color-accent: #4362FF;
     --color-accent-darker: #E22BD0;
     --color-white: #ffffff;
     --header-height: 4.5rem;
@@ -23,7 +23,7 @@ main {
 .header {
     position: fixed;
     padding: 1rem;
-    text-align: ;
+    text-align: center;
     width: 100%;
     font-size: 2rem;
     background-color: var(--color-primary);
